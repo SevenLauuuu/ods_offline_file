@@ -62,7 +62,7 @@ def getHost():
 
   elif  ip[4:6] == '64' :
     print "现在在生产环境 ip : %s " %(ip)
-    ip = '100.64.164.11'
+    ip = '100.64.164.xx'
     hive_user = 'xxxx'
     hive_password = 'xxxx'
 
